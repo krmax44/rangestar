@@ -43,16 +43,17 @@ const a = range.rangeArray(3);
 console.log(a);
 
 // [0, 1, 2]
-
-const b = rangeArray(3, 3.4, 0.1);
-console.log(b);
-
-// [3, 3.1, 3.2, 3.3]
 ```
 
 ...and humans:
 
 ```js
+const b = rangeArray(3, 3.4, 0.1);
+console.log(b);
+
+// [3, 3.1, 3.2, 3.3]
+// Okay, with you so far
+
 const lodashRange = require('lodash.range');
 const c = lodashRange(3, 3.4, 0.1);
 console.log(c);
