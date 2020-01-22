@@ -2,8 +2,8 @@
 
 [![Build Status](https://img.shields.io/gitlab/pipeline/krmax44/rangestar)](https://gitlab.com/krmax44/rangestar/pipelines)
 [![Coverage](https://gitlab.com/krmax44/rangestar/badges/master/coverage.svg?style=flat)](https://gitlab.com/krmax44/rangestar/pipelines)
-![npm bundle size](https://img.shields.io/bundlephobia/min/rangestar?label=size)
-![npm version](https://img.shields.io/npm/v/rangestar)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/rangestar?label=size)](https://bundlephobia.com/result?p=rangestar)
+[![npm version](https://img.shields.io/npm/v/rangestar)](https://npm.im/rangestar)
 
 Another range array generator. Written in TypeScript, well tested, no floating-point BS, super fast and tiny.
 
