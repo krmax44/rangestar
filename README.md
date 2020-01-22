@@ -15,6 +15,8 @@ yarn add rangestar
 
 ## Examples
 
+Supports generators...
+
 ```js
 const range = require('rangestar');
 
@@ -32,11 +34,31 @@ for (const r of range.rangeGenerator(1, 3)) {
 
 // 1
 // 2
+```
 
+...and arrays...
+
+```js
 const a = range.rangeArray(3);
 console.log(a);
 
 // [0, 1, 2]
+
+const b = rangeArray(3, 3.4, 0.1);
+console.log(b);
+
+// [3, 3.1, 3.2, 3.3]
+```
+
+...and humans:
+
+```js
+const lodashRange = require('lodash.range');
+const c = lodashRange(3, 3.4, 0.1);
+console.log(c);
+
+// [3, 3.1, 3.2, 3.3000000000000003]
+// WHAT THE F$#%?
 ```
 
 ## API
